@@ -1,0 +1,43 @@
+
+.main-wrap.album{
+	display: flex;
+}
+.album__side{
+	width: 30%;
+	min-width: 250px;
+	padding: 10px;
+	text-align: center;
+}
+
+.album__title{
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.album__title div{
+	font-size: .8em;
+	color: gray;
+	font-weight: 100;
+}
+
+.album__main{
+	flex: 1;
+	padding: 10px;
+
+}
+
+@media screen and (max-width: 780px){
+	.main-wrap.album{
+		flex-direction: column;
+	}
+	.album__side{
+		width: auto;
+		max-width: 450px;
+		align-self: center;
+	}
+}
+/*@media screen and (max-width: 500px){
+	.album__side{
+	}	
+}*/

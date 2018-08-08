@@ -1,0 +1,53 @@
+.tracklist{
+	width: 100%;
+	border-spacing: 0;
+}
+
+.tracklist__cell{
+	padding: 10px 0;
+}
+
+.tracklist__number{
+	opacity: .5;
+	transition: opacity .3s;
+}
+
+.tracklist__item{
+	cursor: pointer;
+	transition: background-color .3s;
+}
+
+.tracklist__item:hover{
+	background-color: rgba(0,0,0, 0.4);
+}
+
+.tracklist__item.active{
+	color: #219042;
+}
+
+.active .tracklist__number, .active .tracklist__full{
+	opacity: 1;
+}
+
+.tracklist__full{
+	text-align: right;
+}
+.tracklist__full .button{
+	width: 75px;
+}
+
+.no_preview{
+	color: gray;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 500px){
+	.tracklist__number, .no_preview{
+		display: none;
+	}
+
+	.tracklist__cell{
+		font-size: 12px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.09)
+	}
+}

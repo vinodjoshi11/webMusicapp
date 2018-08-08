@@ -1,0 +1,10 @@
+
+.icon-mic-outline:before { content: '\e800'; } /* '' */
+.icon-play:before { content: '\e801'; } /* '' */
+.icon-pause:before { content: '\e802'; } /* '' */
+.icon-to-end:before { content: '\e803'; } /* '' */
+.icon-to-start:before { content: '\e804'; } /* '' */
+.icon-music:before { content: '\e805'; } /* '' */
+.icon-music-outline:before { content: '\e806'; } /* '' */
+.icon-user-outline:before { content: '\e807'; } /* '' */
+.icon-user:before { content: '\e808'; } /* '' */
